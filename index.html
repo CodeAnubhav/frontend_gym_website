@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anytime Fitness</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+<style>
+    /* CSS RESET */
+    body{
+        font-family: 'Quicksand', sans-serif;
+        color: aliceblue;
+        margin: 0px;
+        padding: 0px;
+        background:url('img/bg1.jpg');
+        height: 1250px;
+    }
+    .left{
+        position: absolute;
+        left: 16px;
+        top: 7px;
+        display: inline-block;
+        border: 2px solid red;
+    }
+    .left img{
+        width: 80px;
+        filter: invert(100%);
+    }
+    .left div{
+        text-align: center;
+        font-size:smaller;
+    }
+    .mid{
+        display: block;
+        width: 37%;
+        margin: 20px auto;
+        border: 2px solid black;
+    }
+    .right{
+        position: absolute;
+        right: 10px;
+        top: 20px;
+        display: inline-block;
+        border: 2px solid yellow;
+    }
+    .btn{
+        font-family: 'Quicksand', sans-serif;
+        margin: 0px 2px;
+        background-color: black;
+        color: whitesmoke;
+        padding: 3px 4px;
+        font-size: smaller;
+        border:2px solid gray;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: rgb(69, 69, 69);
+    }
+    .nevbar li{
+        display: inline-block; 
+        font-size:medium;       
+    }
+    .nevbar li a{   
+        color: whitesmoke;
+        text-decoration: none;
+        padding:15px 5px;
+    }
+    .nevbar li a:hover,.nevbar li a :active{
+        text-decoration: underline;
+        color:gray;
+    }
+    .container{
+        margin: 95px 77px;
+        padding: 85px;
+        width: 24%;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 12px;
+        border:2px solid white;
+
+    }
+    .form input{
+        text-align: center;
+        display: block;
+        width: 200px;
+        padding: 4px;
+        border: 2px solid black;
+        margin: 6px;
+    }
+    .container form{
+        align-items:center ;
+    }
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+           <img src="img/logo.jpg" alt="">
+           <div>GYM</div>
+        </div>
+        <div class="mid">
+         <ul class="nevbar">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">FITNESS CENTER</a></li>
+            <li><a href="#">ABOUT US </a></li>
+            <li><a href="#">CONTACT US</a></li>
+         </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call us now</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join Your Nearest branch now</h1>
+        <form action="noaction.php">
+            <div class="form">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <button class="btn">
+                submit now
+            </button>
+        </form>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
